@@ -11,6 +11,7 @@
 		2E8EAD8026BDE6D4007B10B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8EAD7F26BDE6D4007B10B9 /* ContentView.swift */; };
 		2E8EAD8226BDE6D6007B10B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EAD8126BDE6D6007B10B9 /* Assets.xcassets */; };
 		2E8EAD8526BDE6D6007B10B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8EAD8426BDE6D6007B10B9 /* Preview Assets.xcassets */; };
+		2ECF621226DBEFE7004EC512 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECF621126DBEFE7004EC512 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2E8EAD8126BDE6D6007B10B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E8EAD8426BDE6D6007B10B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E8EAD8626BDE6D6007B10B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECF621126DBEFE7004EC512 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6C19E226C044C400C7EE0E /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2E6C19E326C044EC00C7EE0E /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		2E8EAD7126BDE6D4007B10B9 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +68,11 @@
 		2E8EAD7C26BDE6D4007B10B9 /* eden */ = {
 			isa = PBXGroup;
 			children = (
+				2E6C19E326C044EC00C7EE0E /* components */,
+				2E6C19E226C044C400C7EE0E /* src */,
 				2E8EAD7D26BDE6D4007B10B9 /* edenApp.swift */,
 				2E8EAD7F26BDE6D4007B10B9 /* ContentView.swift */,
+				2ECF621126DBEFE7004EC512 /* MapView.swift */,
 				2E8EAD8126BDE6D6007B10B9 /* Assets.xcassets */,
 				2E8EAD8626BDE6D6007B10B9 /* Info.plist */,
 				2E8EAD8326BDE6D6007B10B9 /* Preview Content */,
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8EAD8026BDE6D4007B10B9 /* ContentView.swift in Sources */,
+				2ECF621226DBEFE7004EC512 /* MapView.swift in Sources */,
 				2E8EAD7E26BDE6D4007B10B9 /* edenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eden.eden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.eden;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eden.eden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.eden;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
